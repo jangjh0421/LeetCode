@@ -20,5 +20,4 @@ class Solution:
                 elif digits[x] == 10 or digits[x] == 9:
                     digits[x] = 0
                     digits[x - 1] += 1
-
         return digits
