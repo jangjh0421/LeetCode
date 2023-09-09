@@ -1,5 +1,6 @@
 class Solution(object):
     def plusOne(self, digits: list[int]) -> any:
+
         digits[-1] += 1
         for x in range(1, len(digits) + 1):
             if digits[-x] == 10:
